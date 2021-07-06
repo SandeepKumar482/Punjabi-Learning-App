@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:drawSelectorOnTop="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Numbers"
+        android:textColor="@color/white"
+        android:background="#ff9400"
+        android:layout_gravity="center_horizontal"
+
+        android:textSize="28sp"/>
+    <TextView
+
+        android:id="@+id/family_members"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Family Members"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:background="#56850b"
+        android:textSize="28sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Colors"
+        android:id="@+id/colors"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:background="#35fc03"
+        android:textSize="28sp"/>
+    <TextView
+        android:id="@+id/songs"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Songs"
+        android:textColor="@color/white"
+        android:background="#d9b5f5"
+        android:textSize="28sp"/>
+</LinearLayout>
+
+
+
